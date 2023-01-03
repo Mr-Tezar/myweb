@@ -1,0 +1,115 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url("../image/background/10.jpg");
+    background-size: cover;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.loginBox
+{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    backdrop-filter: blur(3px);
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 380px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.71);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 120px #295156;
+}
+.user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(79% - 50px);
+}
+h2
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+}
+.loginBox label
+{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #575656;
+}
+.loginBox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"],
+.loginBox input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.loginBox input[type="text"]:focus,
+#password:focus
+{
+    border-bottom:2px solid rgb(0, 101, 255);
+}
+::placeholder{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.72);
+}
+.loginBox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    display: inline-flex;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    background: rgba(37, 147, 164, 0.39);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.loginBox a[id="sign_up"]{
+    margin-left: 58%;
+}
+.loginBox a{
+    display: inline-flex;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+button{
+    width: 60px;
+    border: none;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+#password{
+    width: 410px;
+}
+.div-input-pass{
+    display: inline-flex;
+}

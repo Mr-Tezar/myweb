@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style_sign_up.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+</head>
+<body>
+<div class="loginBox">
+    <img src="./image/logo.png" class="user">
+    <h2>Sign up</h2>
+    <form action="" method="post" autocomplete="off">
+        <input type="text"      name="first_name"   id="f_name"     placeholder="First name" autofocus>
+        <input type="text"      name="last_name"    id="l-name"     placeholder="Last name">
+        <input type="text"      name="username"     id="userin"     placeholder="Username" required>
+        <input type="tel"       name="phone_number" id="phone"      placeholder="Phone number 555-777-888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+        <input type="email"     name="email"        id="email"       placeholder="Email" ><br>
+        <input type="text"      name="country"      id="country"    placeholder="Country" value="Iran">
+        <input type="date"      name="birthday"     id="birthday"   min="2003">
+        <input type="password"  name="password"     id="password"   placeholder="Password" minlength="8" maxlength="16" autocomplete="off">
+        <input type="password"  name="password"     id="password_c" placeholder="confirm" minlength="8" maxlength="16">
+        <input type="checkbox"  id="show" onclick="showpass()"><label for="show">show password</label>
+        <select  name="Gender"  id="Gender">
+            <option Class="Gender" value="0" selected>Select Gender:</option>
+            <option Class="Gender" value="1">Male</option>
+            <option Class="Gender" value="2">Female</option>
+        </select>
+        <input type="submit" name="" value="Sign up">
+        <a href="./sign_in.html">Sign in instead</a>
+    </form>
+</div>
+<script>
+    function showpass() {
+        document.getElementById('password').setAttribute('type',document.getElementById('password').getAttribute('type') === 'password' ? 'tel' : 'password');
+        document.getElementById('password_c').setAttribute('type',document.getElementById('password_c').getAttribute('type') === 'password' ? 'tel' : 'password');
+    }
+</script>
+</body>
+<script src="js/bootstrap.js"></script>
+</html>
