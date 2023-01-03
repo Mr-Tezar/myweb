@@ -8,4 +8,4 @@
 <h3>this is <a href="./sign_up.html">Sign_up</a> page</h3>
 <img class="" src="./image/Screenshot_sign-up.png" alt="" title="Search">
 <h3>this is <a href="./forgot_password.html">Forgot_pass</a> page</h3>
-<img class="" src="./image/Screenshot_forgot-pass.png" alt="" title="Search">
+<img class="" src="./image/Screenshot_forgot-password.png" alt="" title="Search">
