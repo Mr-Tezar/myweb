@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background: url("../image/background/4.jpg");
+    background: url("../image/background/10.jpg");
     background-size: cover;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -96,6 +96,7 @@ h2
     display: inline-flex;
     color: #fff;
     font-size: 12px;
+    margin-bottom: 10px;
     font-weight: bold;
     text-decoration: none;
 }
