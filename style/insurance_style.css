@@ -1,0 +1,145 @@
+body {
+    display: block;
+    content: "desktop";
+    margin: 0;
+    padding: 0;
+    background: url("../image/background/9.jpg");
+    background-size: cover;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+header {
+    padding-left: 5%;
+}
+
+.nav-div {
+    margin-top: 5px;
+    display: block;
+    width: 90%;
+    height: 53px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.637);
+    backdrop-filter: blur(6px);
+    border: none;
+    position: absolute;
+    top: 0;
+    transition: box-shadow 250ms;
+    border-radius: 100px;
+}
+
+nav {
+    display: flex;
+    padding: 0 0.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    position: relative;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav-link {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3.5px 12px;
+    position: relative;
+
+}
+
+.nav-link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.lang {
+    margin-top: 10px;
+    color: #a8a8a8;
+    font-size: 15px;
+}
+
+.lang:hover {
+    color: #ffffff;
+}
+
+.footer-div {
+    width: 100%;
+    height: 450px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: rgba(28, 28, 28, 0.75);
+    color: #a8a8a8;
+    margin-bottom: 0;
+    transition: box-shadow 250ms;
+}
+
+li {
+    font-size: 15px;
+}
+
+li:hover {
+    color: white;
+}
+
+.L-title {
+    border-bottom: 1px solid hsla(0, 0%, 73%, .2);
+    display: block;
+    margin: 40px 0 10px;
+    padding-bottom: 10px;
+}
+
+.btn-menu {
+    width: 60px;
+    border: none;
+    outline: none;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#menu-svg {
+    fill: #b6b6b6;
+}
+
+.boxes {
+    background: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+.cards {
+    background: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    border-radius: 30px;
+    height: 500px;
+}
+
+.the_ms2 {
+    margin-top: 10px;
+    background: rgba(20, 131, 152, 0.74);
+    width: 600px;
+    border-radius: 10px 30px 10px 30px;
+    height: 440px;
+}
+.imgss{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(530px);
+    left: calc(90% - 40px);
+}
