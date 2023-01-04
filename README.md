@@ -2,7 +2,7 @@
 <h3>this is <a href="./Home.html">Home</a> page</h3>
 <img class="" src="./image/Screenshot_2023-01-03_09_12_19.png" alt="" title="Search">
 <hr>
-<h3>this is <a href="./Home.html">Insurance</a> page</h3>
+<h3>this is <a href="./insurance_page.html">Insurance</a> page</h3>
 <img class="" src="./image/insurance_page.png" alt="" title="Search">
 <hr>
 <h3>this is <a href="./Search.html">Search</a> page</h3>
