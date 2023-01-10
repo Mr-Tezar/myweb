@@ -135,11 +135,16 @@ li:hover {
     height: 440px;
 }
 .imgss{
-    width: 100px;
-    height: 100px;
+    width: 5%;
+    height: 12%;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
     top: calc(530px);
     left: calc(90% - 40px);
+}
+.csi{
+    background: rgba(9,9,9,0.71);
+    border-radius: 30px;
+    height: 98%;
 }
